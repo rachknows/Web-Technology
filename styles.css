@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: bisque;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#nav {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 5%;
+    gap: 5%; /* Increased gap */
+    position: fixed;
+    z-index: 99;
+}
+
+#nav img {
+    height: 80%;
+    max-width: 20%;
+}
+
+#nav h4 {
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: fixed;
+}
+
+#main {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+#page1 {
+    height: 80vh; /* Decreased height */
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20vh; /* Increased margin bottom */
+}
+
+#page1 h1 {
+    font-size: 6vw; /* Decreased font size */
+    font-weight: 800;
+}
+
+#page1 h2 {
+    font-size: 3vw; /* Decreased font size */
+    font-weight: 700;
+    margin-top: 1vw;
+    margin-bottom: 2vw;
+}
+
+#page1 p {
+    font-size: 1.5vw; /* Decreased font size */
+    font-weight: 500;
+    width: 80%;
+}
+
+#page2 {
+    height: 100vh;
+    width: 100%;
+}
+
+#ourstory {
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ourstory img {
+    height: 50%;
+    max-width: 30%;
+    border-radius: 2vw;
+    object-fit: cover;
+}
+
+#ourstory-info {
+    width: 40%;
+    text-align: center;
+}
+
+#ourstory-info h3 {
+    font-size: 3vw; /* Decreased font size */
+    font-weight: 700;
+    margin-bottom: 4vw;
+}
+
+#ourstory-info p {
+    font-size: 1.5vw;
+    line-height: 2vw; /* Decreased line height */
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 8%;
+    position: relative;
+    background-color: #130808;
+}
+
+h1 {
+    font-size: 4vw; /* Decreased font size */
+    text-align: center;
+    margin-bottom: 5vw; /* Increased margin bottom */
+}
+
+.menu-item {
+    display: flex;
+    background-color: #aa5353;
+    border-radius: 1vw;
+    margin-bottom: 3vw; /* Increased margin bottom */
+    box-shadow: 0 1vw 2vw rgba(0, 0, 0, 0.1); /* Adjusted box shadow */
+}
+
+.menu-item img {
+    width: 12vw; /* Decreased width */
+    border-radius: 1vw 0 0 1vw;
+    height: auto;
+}
+
+.menu-item .text {
+    padding: 2vw;
+}
+
+.menu-item h2 {
+    margin-top: 0;
+}
+
+.menu-item p {
+    margin-top: 1vw;
+}
+
+.menu-item .price {
+    font-weight: bold;
+    color: #ff5733;
+}
